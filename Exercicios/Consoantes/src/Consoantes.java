@@ -17,10 +17,12 @@ public class Consoantes {
             letra.equals("u")) {
 
             } else {
+                for ( String letr : letras) {
+                    
                 quantidadeConsoantes = quantidadeConsoantes + 1;
             }
         }
-
+        
         System.out.println("Quantidade de consoantes: " + quantidadeConsoantes);
 
     }
